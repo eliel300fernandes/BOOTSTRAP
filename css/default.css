@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+*{
+    font-family:'Roboto', sans-serif;
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:'Montserrat', sans-serif;
+    padding-bottom:30px;
+}
+
+body{
+    margin-top:5%;
+}
+
+/*style default */
+.container {
+    width: 100%;
+    padding: 5%;
+}
+.panel{
+  background: #fafafa;
+  width: 80%;
+  margin: 0 auto;
+}
+.uppercase{
+    text-transform:uppercase;
+}
+.flex{
+    display:flex;
+    margin-top:20px !important;
+    color:steelblue;
+    font-weight:bold;
+}
+.flex div{
+    margin:0 auto;
+}
+.flex{
+    border:1px solid silver;
+    padding:10px;
+    width:80%;
+    margin:0 auto;
+    border-radius:5px;
+}
+
+
+#wrap-login, #wrap-register, #wrap-password-redefinition{
+    display:none;
+}
+
+/* inside padding: 5%*/
+#wrap-login, #wrap-register, #wrap-password-redefinition{
+    margin-top: 5%;
+}
+
+.form-control, input{
+    padding:20px;
+    border-radius:0px;
+}
+.btn{
+    border:2px solid steelblue;
+    padding:10px;
+    width:100px;
+    font-weight:bold;
+    color:steelblue;
+}
+.btn:hover{
+    border:2px solid steelblue;
+    font-weight:bold;
+    color:steelblue;
+    background:azure;
+    position:relative;
+    top:2px;
+}
+.btn-default{
+    width:100%;
+}
